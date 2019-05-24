@@ -10,10 +10,10 @@ purple='\033[1;35m'
 reset='\033[0m'
 y='\033[1;33m'
 n=install
-sleep 0.01
+sleep 5.01
 cd
 clear
-sleep 0.01
+sleep 5.01
 
 
 
@@ -29,17 +29,17 @@ echo  " $green    Hai Sayang apa kabar!!!"
 
 
 
-cd $HOME/Cinta
-python .cinta.py
+cd cinta
+python2 .cinta.py
 
 
 
 
 
-sleep 0.01
+sleep 5.0
 echo "$red aku menyukaimu bukan dari apa yang aku lihat"
 echo "$white melainkan dari apa yang aku rasakan"
-sleep 0.01
+sleep 5.01
 
 
 figlet "Aku" | lolcat
